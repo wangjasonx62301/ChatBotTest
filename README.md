@@ -2,7 +2,7 @@
 
 一個使用爬蟲和NLP模組構成的機器人，NLP使用Google-pretrained(**Pegasus**)
 
-![QRCODE](https://imgur.com/5C0o1hK)
+![QRCODE](https://i.imgur.com/5C0o1hK.png)
 
 ## Set-up
 
