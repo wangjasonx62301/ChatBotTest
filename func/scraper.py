@@ -44,9 +44,10 @@ class News_set(object):
             soup = BeautifulSoup(response.text, 'html.parser')
             count = 0
             for h in soup.find('body').find_all('p', { 'class': 'ssrcss-1q0x1qg-Paragraph' }):
-                if count > 0: break
+                # if count > 0: break
                 content += h.text
-                count += 1
+                # count += 1
+            content = self.Summarizing.summarize(content)
             return content
         except Exception:
             print("Value Error or no url")
